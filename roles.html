@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Roles – Gender & Energy Toolkit</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="toolkit.html">Toolkit</a>
+  <a href="roles.html" class="active">Roles</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="legal.html">Legal</a>
+</nav>
+
+<!-- SECONDARY ROLE NAV – appears only on roles.html -->
+<div id="role-nav-secondary" class="role-nav-secondary">
+  <button data-role="researchers" class="role-nav-btn active">Researchers & Educators</button>
+  <button data-role="funders" class="role-nav-btn">Funders & Policy-Makers</button>
+  <button data-role="leaders" class="role-nav-btn">Research Managers & Leaders</button>
+</div>
+
+<div class="container">
+
+  <!-- STEP 1: Role Selection -->
+  <div class="step active" id="step-roles">
+    <div class="content-center">
+      <h2>Select Your Role</h2>
+      <p>Choose the role that best fits your work to get tailored recommendations and resources.</p>
+      <div class="role-grid">
+        <div class="role-card" data-role="researchers">
+          <img src="images/researchers.jpg" alt="Researchers & Educators">
+          <h3>Researchers & Educators</h3>
+          <p class="role-blurb">Teaching energy courses, designing studies, training the next generation of innovators.</p>
+        </div>
+        <div class="role-card" data-role="funders">
+          <img src="images/funders.jpg" alt="Funders & Policy-Makers">
+          <h3>Funders & Policy-Makers</h3>
+          <p class="role-blurb">Allocating grants, shaping policies, evaluating projects for impact.</p>
+        </div>
+        <div class="role-card" data-role="leaders">
+          <img src="images/leaders.jpg" alt="Research Managers & University Leaders">
+          <h3>Research Managers & University Leaders</h3>
+          <p class="role-blurb">Leading teams, hiring talent, building inclusive institutions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2: Recommendations -->
+  <div class="step" id="step-recommendations">
+    <button class="back-btn">← Back to Roles</button>
+    <h2 id="role-title"></h2>
+    <div class="rec-grid" id="rec-grid"></div>
+  </div>
+
+  <!-- STEP 3: Resources -->
+  <div class="step" id="step-resource">
+    <button class="back-btn">← Back</button>
+    <div class="resource-wrapper">
+      <aside class="resource-sidebar">
+        <h3 id="sidebar-role"></h3>
+        <div id="sidebar-list"></div>
+      </aside>
+      <main class="resource-main">
+        <h2 id="res-title"></h2>
+        <p id="res-detail"></p>
+        <div class="resource-section">
+          <h3>Practical Resources</h3>
+          <div id="practical-resources" class="card-grid"></div>
+        </div>
+        <div class="resource-section">
+          <h3>Theoretical Resources</h3>
+          <div id="theoretical-resources" class="card-grid"></div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <img src="images/eu-logo.png" alt="EU Logo" class="eu-logo clickable" onclick="window.open('https://ec.europa.eu','_blank')">
+  <p>© 2025 gEneSys Project | Funded by the European Union</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
