@@ -4,6 +4,10 @@ const toolkitData = {
       id: 1,
       title: "Embed gender & intersectionality across curricula & research",
       detail: "Integrate a critical gender and intersectional lens into pedagogical and research methodologies to ensure that energy scholarship addresses systemic power dynamics and diverse lived experiences.",
+      exampleTitle: "Stanford Gendered Innovations Project",
+      example: "When redesigning engineering and energy courses, Stanford University's Gendered Innovations project encourages educators to integrate sex, gender and intersectional analysis into teaching materials and case studies. Rather than treating gender as a separate topic, it becomes part of how research questions, technologies and solutions are designed and evaluated.",
+      exampleLinkTitle: "Gendered Innovations – Stanford University",
+      exampleLink: "https://genderedinnovations.stanford.edu/",
       resources: 5,
       resourceItems: [  
         {
@@ -42,6 +46,10 @@ const toolkitData = {
       id: 2,
       title: "Foster interdisciplinary, collaborative learning environments",
       detail: "Cultivate transdisciplinary spaces for knowledge co-creation, dismantling disciplinary boundaries to facilitate a holistic understanding of socio-technical energy systems.",
+      exampleTitle: "QUEST Project",
+      example: "Universities participating in the QUEST project bring together engineering, sustainability and social science students to solve real-world energy challenges. Students work in interdisciplinary teams, learning how technical, environmental and gender perspectives contribute to more inclusive energy solutions.",
+      exampleLinkTitle: "QUEST Project",
+      exampleLink: "https://www.questproject.eu/",
       resources: 5,
       resourceItems: [  
         {
@@ -80,6 +88,10 @@ const toolkitData = {
       id: 3,
       title: "Support project-based & participatory learning",
       detail: "Implement action-oriented and community-engaged pedagogical frameworks that empower learners to become co-researchers and co-designers of equitable energy solutions.",
+      exampleTitle: "Barefoot College Solar Engineer Programme",
+      example: "Barefoot College trains rural women as solar engineers through practical, community-based learning. Participants install and maintain solar systems in their villages, demonstrating how project-based learning can simultaneously build technical skills, local ownership and women's leadership.",
+      exampleLinkTitle: "Barefoot College",
+      exampleLink: "https://www.barefootcollege.org/",
       resources: 4,
       resourceItems: [
         {
@@ -112,6 +124,10 @@ const toolkitData = {
       id: 4,
       title: "Incorporate social justice & ethics into energy education",
       detail: "Ground energy education in critical theories of justice and ethics to analyze and challenge the historical and ongoing social and environmental injustices of energy systems.",
+      exampleTitle: "Energy Justice in Higher Education",
+      example: "Many university energy programmes now encourage students to evaluate renewable energy projects not only for technical performance but also for fairness, inclusion and social justice. Students analyse who benefits, who may be disadvantaged and how projects can become more equitable.",
+      exampleLinkTitle: "Justice by Design",
+      exampleLink: "https://www.sciencedirect.com/science/article/pii/S2214629625000799",
       resources: 7,
       resourceItems: [
         {
@@ -162,6 +178,10 @@ const toolkitData = {
       id: 5,
       title: "Encourage participatory & community-engaged research",
       detail: "Advance a Participatory Action Research (PAR) paradigm that shifts research subjects into co-investigators, thereby producing knowledge that is both academically rigorous and socially relevant.",
+      exampleTitle: "University of Reading Participatory Action Research",
+      example: "Researchers work alongside community organisations to define research questions, collect evidence and co-design solutions. Rather than studying communities, researchers collaborate with them throughout the research process.",
+      exampleLinkTitle: "Participatory Action Research Toolkit",
+      exampleLink: "https://research.reading.ac.uk/community-based-research/",
       resources: 4,
       resourceItems: [
         {
@@ -194,6 +214,10 @@ const toolkitData = {
       id: 6,
       title: "Design inclusive smart grid & energy technology programmes",
       detail: "Develop and evaluate technology and training protocols using a user-centered, gender-responsive design process to ensure universal access and equitable outcomes in technological transitions.",
+      exampleTitle: "World Bank Gender Equality in Energy Infrastructure",
+      example: "Before introducing new energy technologies, project teams consult women and other underrepresented users to understand their needs. Their feedback informs technology design, training and implementation, resulting in more inclusive energy systems.",
+      exampleLinkTitle: "Getting to Gender Equality",
+      exampleLink: "https://www.esmap.org/publications/power-full-force-getting-gender-equality-hydropower-sector",
       resources: 3,
       resourceItems: [
         {
@@ -222,6 +246,10 @@ const toolkitData = {
       id: 1,
       title: "Adapt research priorities to better reflect social & gendered challenges",
       detail: "Realign research funding mandates to prioritize critical inquiry into the socio-technical and gender-differentiated challenges of energy transitions, such as the digital divide and data sovereignty.",
+      exampleTitle: "Horizon Europe – Gender Equality as an Award Criterion",
+      example: "The European Commission's Horizon Europe programme requires many research proposals to integrate gender dimensions into research and innovation where relevant. Projects that ignore gender analysis can receive lower evaluation scores, encouraging researchers to design studies that address social and gendered impacts from the beginning rather than as an afterthought.",
+      exampleLinkTitle: "European Commission – Gender Equality in Horizon Europe",
+      exampleLink: "https://research-and-innovation.ec.europa.eu/strategy/strategy-research-and-innovation/democracy-and-rights/gender-equality-research-and-innovation_en#gender-equality-in-horizon-europe",
       resources: 4,
       resourceItems: [
         {
@@ -254,6 +282,10 @@ const toolkitData = {
       id: 2,
       title: "Reconfigure innovation processes to address inherent biases",
       detail: "Implement funding mechanisms that mandate a reflexive and gender-sensitive approach to innovation, mitigating the reproduction of existing biases within new technological development.",
+      exampleTitle: "Canadian Institutes of Health Research (CIHR)",
+      example: "CIHR requires applicants to explain how sex and gender have been considered in the design of proposed research. Grant reviewers assess these considerations during evaluation, encouraging researchers to build more inclusive innovation processes from the earliest stages of project development.",
+      exampleLinkTitle: "CIHR – Sex, Gender and Health Research",
+      exampleLink: "https://www.canada.ca/en/institutes-health-research/search.html?cdn=irsccihr&st=s&num=10&langs=eng&st1rt=0&s5bm3ts21rch=x&q=sex+gender+and+health+research#wb-land",
       resources: 6,
       resourceItems: [
         {
@@ -298,6 +330,10 @@ const toolkitData = {
       id: 3,
       title: "Revise evaluation standards and teaching metrics",
       detail: "Establish new evaluative criteria and performance indicators that move beyond conventional metrics to account for social equity, inclusion, and gender-responsive outcomes.",
+      exampleTitle: "Athena SWAN Charter",
+      example: "Universities participating in the Athena SWAN Charter are evaluated using evidence on gender equality, career progression, leadership, recruitment and institutional culture rather than relying solely on traditional academic performance metrics. The framework demonstrates how broader evaluation criteria can drive organisational change.",
+      exampleLinkTitle: "Athena SWAN Charter",
+      exampleLink: "https://www.advance-he.ac.uk/equality-charters/athena-swan-charter",
       resources: 3,
       resourceItems: [
         {
@@ -324,6 +360,10 @@ const toolkitData = {
       id: 4,
       title: "Monitor progress and ensure accountability",
       detail: "Institute robust oversight and auditing mechanisms, such as a Participatory Gender Audit, to ensure that gender- and equity-related objectives are systematically met and that institutional accountability is upheld.",
+      exampleTitle: "University College London Gender Equality Action Plan",
+      example: "University College London monitors progress on gender equality through measurable targets, annual reporting and institutional action plans. Regular reviews of recruitment, promotion and leadership representation help ensure accountability and continuous improvement rather than treating gender equality as a one-off initiative.",
+      exampleLinkTitle: "UCL Gender Equality",
+      exampleLink: "https://www.ucl.ac.uk/equality-diversity-inclusion/gender-equality",
       resources: 3,
       resourceItems: [
         {
@@ -350,6 +390,10 @@ const toolkitData = {
       id: 5,
       title: "Align pathways to energy transitions (strategic alignment with Green Deal, SDGs, RRI)",
       detail: "Strategically align policy with international frameworks -- including the UN Sustainable Development Goals (SDGs) and Responsible Research and Innovation (RRI) -- to establish a coherent and ethically grounded policy trajectory toward a just energy transition.",
+      exampleTitle: "Horizon Europe: Embedding Gender Equality into Research Funding",
+      example: "The European Union provides a strong example of how a funding programme can translate broad policy commitments into concrete funding requirements. Under Horizon Europe, gender equality is treated as a cross-cutting priority rather than as a separate project theme. Certain organisations must have a Gender Equality Plan to be eligible for funding, while integrating a gender dimension into research and innovation content is required by default. The programme also promotes gender balance and provides dedicated support for gender and intersectional research. This demonstrates how funders can connect major policy objectives such as the European Green Deal and sustainable development with concrete funding rules that require research and innovation to consider gender equality, inclusion and societal impact.",
+      exampleLinkTitle: "Horizon Europe guidance on gender equality plans",
+      exampleLink: "https://op.europa.eu/en/publication-detail/-/publication/d9468388-df75-11f0-8439-01aa75ed71a1",
       resources: 4,
       resourceItems: [
         {
@@ -384,6 +428,10 @@ const toolkitData = {
       id: 1,
       title: "Create mentorship & networking initiatives",
       detail: "Design and deploy strategic mentorship and networking programs to address structural barriers and facilitate professional advancement for underrepresented groups within the energy and academic sectors.",
+      exampleTitle: "Women in Green Hydrogen (WiGH)",
+      example: "Women in Green Hydrogen (WiGH) is a global professional network that connects women working across the hydrogen sector through mentoring, networking events, leadership development and knowledge exchange. The initiative demonstrates how structured professional networks can reduce barriers to career progression while increasing the visibility and representation of women in emerging energy industries.",
+      exampleLinkTitle: "Women in Green Hydrogen",
+      exampleLink: "https://women-in-green-hydrogen.net/",
       resources: 5,
       resourceItems: [
         {
@@ -422,6 +470,10 @@ const toolkitData = {
       id: 2,
       title: "Offer flexible & inclusive training pathways",
       detail: "Develop adaptive and inclusive professional development and training pathways that accommodate diverse professional trajectories and life circumstances to foster a more equitable talent pipeline.",
+      exampleTitle: "IRENA – Empowering Women in the Energy Transition",
+      example: "The International Renewable Energy Agency (IRENA) delivers leadership training, mentoring and capacity-building programmes designed to support women at different stages of their careers. By combining online learning, networking opportunities and professional development, the programme demonstrates how flexible training pathways can broaden participation across the global renewable energy workforce.",
+      exampleLinkTitle: "IRENA – Empowering Women",
+      exampleLink: "https://www.irena.org/Search?query=empowering+women&orderBy=Date&contentType=all",
       resources: 4,
       resourceItems: [
         {
@@ -454,6 +506,10 @@ const toolkitData = {
       id: 3,
       title: "Institutionalise gender-responsive leadership & policy",
       detail: "Embed gender-responsive principles into institutional governance, leadership development, and organizational policy to foster a culture of systemic equity.",
+      exampleTitle: "Athena Swan Charter",
+      example: "The Athena Swan Charter provides universities with a structured framework for embedding gender equality into leadership, governance, recruitment and organisational policy. Institutions develop action plans, monitor progress and undergo external assessment, making gender-responsive leadership part of everyday institutional practice rather than an isolated initiative.",
+      exampleLinkTitle: "Athena Swan Charter",
+      exampleLink: "https://www.advance-he.ac.uk/equality-charters/athena-swan-charter",
       resources: 6,
       resourceItems: [
         {
@@ -498,6 +554,10 @@ const toolkitData = {
       id: 4,
       title: "Develop gender-sensitive outreach & communication strategies",
       detail: "Formulate and execute a gender-sensitive communication and outreach strategy, employing inclusive language and imagery to diversify talent pools and enhance institutional reputation.",
+      exampleTitle: "UN Women – Gender-Responsive Communication",
+      example: "UN Women promotes gender-responsive communication by encouraging organisations to use inclusive language, balanced representation and stereotype-free imagery across their public communications. Many universities and research organisations have adopted these principles to attract more diverse students, researchers and professional staff while strengthening their institutional reputation.",
+      exampleLinkTitle: "UN Women Communications",
+      exampleLink: "https://www.unwomen.org/en/about-us",
       resources: 6,
       resourceItems: [
         {
@@ -542,6 +602,10 @@ const toolkitData = {
       id: 5,
       title: "Highlight women’s leadership & contributions in energy fields",
       detail: "Systematically amplify the contributions and leadership of women in energy research to create visible role models and normalize their presence at all levels of the academic and professional hierarchy.",
+      exampleTitle: "C3E Women in Clean Energy",
+      example: "The Clean Energy Education and Empowerment (C3E) Initiative recognises outstanding women leaders in clean energy through international awards, career profiles and networking events. By celebrating visible role models from academia, industry and government, the initiative helps normalise women's leadership while inspiring the next generation of energy professionals.",
+      exampleLinkTitle: "C3E Women in Clean Energy",
+      exampleLink: "https://c3e.org/",
       resources: 4,
       resourceItems: [
         {
@@ -578,3 +642,81 @@ const roleBlurbs = {
   funders: "This includes you if you're allocating grants, shaping policies, or evaluating projects for impact.",
   leaders: "This includes you if you're leading teams, hiring talent, or building inclusive institutions."
 };
+
+const toolkitSteps = [
+  {
+    id: 1,
+    title: "Run gender workshops",
+    description:
+      "Build team awareness and buy-in for women's needs.",
+
+    exampleTitle:
+      "ENERGIA's Gender Mainstreaming Programme (Africa & Asia)",
+
+    example:
+      "Before implementing rural energy projects, ENERGIA trained project staff and local partners through gender-awareness workshops. These sessions helped teams understand gender roles in energy use and informed project planning, resulting in more inclusive energy interventions.",
+
+    linkTitle:
+      "Mainstreaming Gender in Energy Projects: A Practical Handbook",
+
+    link:
+      "https://www.cif.org/sites/cif_enc/files/knowledge-documents/mainstreaming_gender_in_energy_projects_a_practical_hand_book.pdf"
+  },
+
+  {
+    id: 2,
+    title: "Consult stakeholders",
+    description:
+      "Use focus groups to map women's energy roles.",
+
+    exampleTitle:
+      "Barefoot College Solar Engineer Programme (India)",
+
+    example:
+      "Barefoot College begins projects with community consultations where women identify local energy needs and nominate trainees. These discussions ensure that the programme reflects local priorities and increases community ownership.",
+
+    linkTitle:
+      "Barefoot College Eco-village approach",
+
+    link:
+      "https://www.sciencedirect.com/science/article/pii/S2210422421001283"
+  },
+
+  {
+    id: 3,
+    title: "Create a Gender Action Plan",
+    description:
+      "Set targets like 50% women in trainings.",
+
+    exampleTitle:
+      "World Bank / ESMAP Energy Infrastructure Projects",
+
+    example:
+      "The World Bank recommends preparing a Gender Action Plan during project design. These plans define measurable objectives such as increasing women's participation in technical training, employment, consultation processes and leadership, together with indicators for monitoring progress.",
+
+    linkTitle:
+      "Getting to Gender Equality in Energy Infrastructure",
+
+    link:
+      "https://openknowledge.worldbank.org/entities/publication/0345ca7a-8f77-5b4b-ae04-069d71b006e4"
+  },
+
+  {
+    id: 4,
+    title: "Monitor with sex-disaggregated data",
+    description:
+      "Track women's benefits like time savings.",
+
+    exampleTitle:
+      "EIGE Gender Equality Plan Monitoring",
+
+    example:
+      "The European Institute for Gender Equality recommends collecting sex-disaggregated indicators such as participation, leadership positions, training completion and project outcomes to assess whether gender objectives are being achieved.",
+
+    linkTitle:
+      "Monitoring Progress and Evaluating a Gender Equality Plan",
+
+    link:
+      "https://eige.europa.eu/gender-mainstreaming"
+  }
+];
