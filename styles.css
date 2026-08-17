@@ -368,3 +368,244 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+
+/* ======================================================
+   Toolkit Steps
+====================================================== */
+
+.toolkit-step{
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    margin-bottom:12px;
+
+    background:#fff;
+
+    overflow:hidden;
+
+}
+
+.step-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:14px 18px;
+
+    gap:18px;
+
+}
+
+.step-text{
+
+    flex:1;
+
+}
+
+.step-number{
+
+    color:#2d7dbd;
+    font-size:.82rem;
+    font-weight:700;
+    margin-bottom:4px;
+
+}
+
+.step-title{
+
+    font-size:.95rem;
+    line-height:1.4;
+
+}
+
+.step-title strong{
+
+    font-size:1rem;
+
+}
+
+.step-title span{
+
+    color:#555;
+
+}
+
+.example-btn{
+
+    background:none;
+
+    border:none;
+
+    color:#2d7dbd;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    white-space:nowrap;
+
+    padding:4px;
+
+}
+
+.example-btn:hover{
+
+    text-decoration:underline;
+
+}
+
+.example-content{
+
+    display:none;
+
+    border-top:1px solid #eee;
+
+    padding:16px 18px;
+
+    background:#f8fafc;
+
+}
+
+.example-content p{
+
+    font-size:.92rem;
+
+    line-height:1.5;
+
+}
+
+.example-content.show{
+
+    display:block;
+
+}
+
+.example-content h4{
+
+    color:#2d7dbd;
+
+    margin-bottom:10px;
+
+}
+
+.example-content strong{
+
+    display:block;
+
+    margin-bottom:12px;
+
+}
+
+.example-content a{
+
+    display:inline-block;
+
+    margin-top:12px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.example-content a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.step-header{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+.example-btn{
+
+    width:100%;
+
+}
+
+}
+
+/* ------------------------------
+   Example in Practice
+------------------------------ */
+
+.example-box{
+
+    margin:22px 0 30px;
+
+    padding:20px 24px;
+
+    background:#f8fbf8;
+
+    border-left:5px solid #2f6d45;
+
+    border-radius:10px;
+
+}
+
+.example-box h3{
+
+    margin:0 0 10px;
+
+    color:#2f6d45;
+
+    font-size:1rem;
+
+}
+
+.example-box h4{
+
+    margin:0 0 10px;
+
+    font-size:1rem;
+
+    color:#333;
+
+    font-weight:600;
+
+}
+
+.example-box p{
+
+    margin:0 0 14px;
+
+    color:#555;
+
+    line-height:1.6;
+
+}
+
+.example-box a{
+
+    display:inline-block;
+
+    color:#2f6d45;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.example-box a:hover{
+
+    text-decoration:underline;
+
+}

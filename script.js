@@ -3,6 +3,87 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  // --------------------------------------------------
+// Toolkit Steps (Accordion)
+// --------------------------------------------------
+
+const toolkitContainer = document.getElementById("toolkit-steps");
+
+if (toolkitContainer && typeof toolkitSteps !== "undefined") {
+
+    toolkitSteps.forEach(step => {
+
+        const card = document.createElement("div");
+        card.className = "toolkit-step";
+
+        card.innerHTML = `
+
+            <div class="step-header">
+
+              <div class="step-text">
+
+                <div class="step-number">
+                  Step ${step.id}
+                </div>
+
+                <div class="step-title">
+                  <strong>${step.title}</strong>
+                  <span> – ${step.description}</span>
+                </div>
+
+              </div>
+
+            <button class="example-btn">
+              ▼ View Example
+            </button>
+
+          </div>
+
+            <div class="example-content">
+
+                <h4>Example in Practice</h4>
+
+                <strong>${step.exampleTitle}</strong>
+
+                <p>${step.example}</p>
+
+                <a href="${step.link}" target="_blank">
+                    Read the example →
+                </a>
+
+            </div>
+
+        `;
+
+        toolkitContainer.appendChild(card);
+    });
+
+    // Accordion functionality
+
+    document.querySelectorAll(".example-btn").forEach(btn => {
+
+        btn.addEventListener("click", function () {
+
+            const content = this.parentElement.nextElementSibling;
+
+            content.classList.toggle("show");
+
+            if (content.classList.contains("show")) {
+
+                this.textContent = "▲ Hide Example";
+
+            } else {
+
+                this.textContent = "▼ View Example";
+
+            }
+
+        });
+
+    });
+
+}
+
   // Full role names
   const fullRoleNames = {
     researchers: 'Researchers & Educators',
@@ -81,6 +162,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Full detail paragraph
     document.getElementById('res-detail').textContent = rec.detail;
+
+    // Example for recommendations
+    document.getElementById("example-title").textContent = rec.exampleTitle || "";
+
+    document.getElementById("res-example").textContent = rec.example || "";
+
+    const exampleLink = document.getElementById("example-link");
+
+    if (rec.exampleLink) {
+      exampleLink.href = rec.exampleLink;
+      exampleLink.textContent = rec.exampleLinkTitle || "Read more";
+      exampleLink.style.display = "inline-block";
+
+    } else {
+
+      exampleLink.style.display = "none";
+
+    }
 
     // Sidebar header
     document.getElementById('sidebar-role').textContent = fullRoleNames[role];
